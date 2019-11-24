@@ -1,0 +1,114 @@
+
+
+@keyframes goway{
+    from{
+        stroke-dasharray: 0 1000;
+        stroke-dashoffset: 500;
+    }
+  to{
+        stroke-dasharray: 1000 0;
+        stroke-dashoffset: 1000;
+  }
+}
+
+.map:hover{
+    cursor:pointer;
+}
+
+
+
+.page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+    background: #2A2C2F;
+    color: #fff;
+    font-family: Inter;
+    min-width: 288px;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;text-rendering: optimizeLegibility;
+}
+
+.link{
+    color:inherit;
+    text-align: left;
+    font-size: 18px;
+    line-height: 24px;
+    height: 18px;
+}
+
+.link:hover{
+    opacity: .7;
+}
+
+.text{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.url-heading{
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.2em;
+    font-weight: normal;
+    color: #aaa; 
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 16px;
+ 
+}
+
+.item{
+    display: flex;
+    border-radius: 5px;
+    position: relative;
+    background-blend-mode: multiply;
+    background-position: top;
+    background-size: cover;
+    background-color: rgba( 0, 0, 0, 0.5);
+    transition: background-color .3s;
+}
+
+.item:hover{
+    background-color: rgba( 0, 0, 0, 0.8);
+}
+
+.container-row{
+    display: flex;
+}
+
+.website{
+    flex-basis:282px;
+}
+
+.website__url{
+    margin-bottom: 12px;
+
+}
+
+@media screen and (min-width:1280px){
+    .content{ width: 984px;}
+ }
+
+ @media screen and (max-width:1280px){
+    .content{ width: 76%;}
+ }
+
+
+ @media screen and (max-width:1024px){
+    .content{ width: 928px;}
+    
+}
+
+ @media screen and (max-width:928px){
+    .content{ width: 100%;}
+    
+ }
+

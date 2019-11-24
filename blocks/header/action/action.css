@@ -1,0 +1,3 @@
+.radio-link:checked + .page__language{
+    text-decoration: underline;
+}

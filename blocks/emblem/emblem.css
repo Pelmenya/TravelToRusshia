@@ -1,0 +1,44 @@
+.emblem{
+    margin-bottom: 85px;
+}
+
+.title_emblem{
+    font-size: 42px;
+    line-height: 45px;
+    text-align: left;
+    width: 420px;
+}
+
+.emblem__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 208px;
+    margin-right: 36px;
+    position: relative;
+}
+
+.emblem__item:last-of-type{
+    margin-right: 0px;
+}
+
+.emblem__pic{
+/*абсолютное центрирование внутри блока, 
+нужно знать высоту объекта. Для IE. 
+Остальные автоматически во flex центрируют */ 
+    position: absolute;
+    height:226px;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;    
+    margin: auto;
+}
+
+.emblem__heading{
+    width: 208px;
+    padding-top: 343px;
+    font-size: 24px;
+    line-height: 26px;
+}
+

@@ -1,0 +1,74 @@
+
+.title_additional{
+    margin-bottom: 48px;
+}
+
+.title_additional-card{
+    font-size: 27px;
+    line-height: 29px;
+    text-align: left;
+
+}
+
+.subtitle_additional{
+    margin-bottom: 72px;
+}
+
+.text_additional{
+    line-height: 20px;
+    text-align: left;
+}    
+
+.item_additional{
+    width:  284px;
+    height: 330px;
+}
+.item_novorosissk{
+    background-image: url(../../images/nvrssk.jpg);
+}
+
+.item_shihan{
+    background-image: url(../../images/shickan.jpg);
+}
+
+.item_cherepovec{
+    background-image: url(../../images/cherepovets.jpg);
+}
+
+.item_nik-lenivec{
+    background-image: url(../../images/nikola.jpg);
+}
+
+
+.additional__description{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 270px;
+    width:248px;
+    left: 18px;
+    bottom: 30px;
+}
+
+.text_additional{
+    flex-basis:74px;
+    line-height: 20px;
+}
+
+.text_additional:first-of-type{
+    flex-basis:54px;
+    line-height: 20px;
+}
+
+.link_additional{
+    margin-right: 16px;
+}
+
+.link_additional:last-of-type{
+    margin-right: 0px;
+}
+
+.link_additional:hover{
+    opacity: 1;
+}

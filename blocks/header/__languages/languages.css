@@ -1,0 +1,10 @@
+
+@import url(../__label/language.css);
+
+.page__languages{
+    display:flex;
+    font-size: 1.5em;
+    line-height: 0.96;
+    margin-top: 17px;
+}
+

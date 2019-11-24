@@ -1,0 +1,14 @@
+
+.page__language{
+    display: block;
+    cursor:pointer;
+    text-decoration: none;
+}
+
+.page__language:hover{
+    opacity: .7;
+}
+
+.page__language:first-of-type{
+    margin-right:18px; 
+}

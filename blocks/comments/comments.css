@@ -1,0 +1,157 @@
+
+.comments__container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%
+
+}
+.title_comments{
+    width: 800px;
+    margin-bottom: 48px;
+}
+
+.subtitle_comments{
+    width: 640px;
+    margin-bottom: 72px;
+}
+
+.comments__item{
+    display: flex;
+    width: calc((100% - 38px)/3);
+    flex-direction: column;
+}
+
+.text_comments{
+    flex-basis:initial;
+    padding: 0;
+}
+
+.comments__pic{
+    height:98px;
+    width:98px;
+    border-radius: 49px;
+    margin-bottom: 42px;
+}
+
+.comments__blockquote{
+    margin: 0 0 24px 0;
+
+}
+
+.comments__q{
+    quotes: "\00ab" "\00bb";
+}
+
+@media screen and (min-width:1184px){
+    .comments{
+        width: 1184px;
+    }
+
+}
+
+
+@media screen and (max-width:800px){
+
+    .comments__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+
+    .title_comments{
+        width: 600px;
+        font-size: 42px;
+        line-height: 46px;
+        margin-bottom: 24px;
+    }
+    
+    .subtitle_comments{
+        width: 640px;
+        font-size: 24px;
+        line-height: 34px;
+        margin-bottom: 19px;
+    }
+    
+    .comments__item{
+        margin-top: 47px;
+        display: flex;
+        width: 382px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+    .comments__pic{
+        order: 1;
+        margin-bottom: 16px;
+    }
+    
+    .text_comments{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        order: 2;
+    }
+
+
+    .comments__blockquote{
+        margin-top: 24px;
+        margin-bottom: 0px;
+        order: 3;
+    }
+
+}
+
+
+@media screen and (max-width:650px){
+    .comments{
+        width: 100%;
+    }
+    .comments__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 93%;
+    }
+
+    .title_comments{
+        width: 93%;
+        font-size: 32px;
+        line-height: 35px;
+        margin-bottom: 16px;
+    }
+    
+    .subtitle_comments{
+        width: 93%;
+        font-size: 16px;
+        line-height: 23px;
+        margin-bottom: 0px;
+    }
+    
+    .comments__item{
+        margin-top: 47px;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .comments__pic{
+        order: 1;
+        margin-bottom: 16px;
+    }
+    
+    .text_comments{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        order: 2;
+    }
+
+
+    .comments__blockquote{
+        margin-top: 24px;
+        margin-bottom: 0px;
+        order: 3;
+    }
+
+}

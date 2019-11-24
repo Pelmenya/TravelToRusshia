@@ -1,0 +1,76 @@
+
+
+@import url(../header/__languages/languages.css);
+@import url(../header/__input/radio-link.css);
+@import url(../header/action/action.css);
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 30px;
+}
+
+.header__logo{
+    width: 177px;
+    fill: transparent;
+    transition: transform .3s;
+}
+
+.header__logo:hover{
+    transform: scale(1.1);
+}
+
+.header__logo-br{
+    fill:#fff;
+}
+
+.header__logo:hover .header__logo-br{
+    stroke-width:1;
+    stroke:#00F;
+    animation: goway 1s;
+    fill:url(#flag-bg);
+}
+
+.link_header:hover{
+    opacity: 1;
+}
+
+
+@media screen and (min-width:1184px){
+    .header{ width: 1184px; }
+ }
+
+ 
+@media screen and (max-width:1024px){
+    .header{ width: 928px }
+
+    
+}
+
+@media screen and (max-width:928px){
+    .header{ width: 93%;}
+    
+ }
+
+
+
+@media screen and (max-width:396px){
+    .page__languages
+    { 
+        font-size: 1.125em;
+        margin-top: 15px;
+    }
+    
+    .header{
+        margin-top: 16px;
+    }
+
+    .header__logo{
+        width: 142px;
+        fill: transparent;
+        transition: transform .3s;
+    }
+ 
+}
+ 
